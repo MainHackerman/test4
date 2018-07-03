@@ -9,3 +9,9 @@ def nabidka(destinace, ceny):
 
 def registrace(databaze, udaje):
     pass
+
+def login(jmeno, heslo):
+    pass
+
+def nakup(*destinace):
+    pass
