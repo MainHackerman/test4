@@ -4,7 +4,7 @@ def nabidka(destinace, ceny):
     print('We can offer you the following destinations:')
     print('=' * 80)
     for i in range(len(destinace)):
-        print('| ' + destinace[i] + ' | ' + ceny[i])
+        print('| ' + destinace[i] + ' | ' + str(ceny[i]))
     print('=' * 80)
 
 def jejmeno(string):
@@ -22,7 +22,7 @@ def regvalid(udaje):
     passwd = False
     mail = False
     vek = False
-    if udaje[2] >= 8:
+    if len(udaje[2]) >= 8:
         passwd = True
     if '@' in udaje[3]:
         mail = True
